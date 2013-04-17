@@ -16,16 +16,16 @@ Twitter Bootstrap is required. Currently running at Twitter Bootstrap v2.3.1
 Some useful CSS (ID = "home-slider"):
 
 ```css
-#home-carousel img {
+#home-slider img {
   width: 900px;
   height: 350px;
 }
-#home-carousel .carousel-inner,
-#home-carousel .carousel-inner h4,
-#home-carousel .carousel-inner p {
+#home-slider .carousel-inner,
+#home-slider .carousel-inner h4,
+#home-slider .carousel-inner p {
   text-align: center;
 }
-#home-carousel .carousel .item > img {
+#home-slider .carousel .item > img {
   display: inline-block;
 }
 ```
