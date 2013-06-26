@@ -1,7 +1,7 @@
-<div id="{{ id }}" class="carousel slide">
+<div id="{{ slider_id }}" class="carousel slide">
     <ol class="carousel-indicators">
         {{ files:listing folder=folder type="i" }}
-        <li data-target="#{{ id }}" data-slide-to="{{ helper:show_count identifier='lights' }}" {{ if { helper:show_count identifier='lights' } == '1'}}class="active"{{ endif }}></li>
+        <li data-target="#<?php echo $slider_id;?>" data-slide-to="{{ helper:show_count identifier='lights' }}" {{ if { helper:show_count identifier='lights' } == '1'}}class="active"{{ endif }}></li>
         {{ helper:count identifier="lights" return="false" }}
         {{ /files:listing }}
     </ol>

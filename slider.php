@@ -10,7 +10,7 @@ class Widget_Slider extends Widgets
 
     public $fields = array(
         array(
-            'field' => 'id',
+            'field' => 'slider_id',
             'label' => 'ID',
             'rules' => 'required'
             ),

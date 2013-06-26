@@ -1,7 +1,7 @@
 <ol>
     <li class="odd">
         <label>ID</label>
-        <?php echo form_input('id', $options['id']); ?>
+        <?php echo form_input('slider_id', $options['slider_id']); ?>
     </li>
     <li class="even">
         <label>Folder path</label>
